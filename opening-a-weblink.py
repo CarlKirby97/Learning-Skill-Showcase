@@ -8,7 +8,7 @@ while True:
     print('Are you ready?')
     print('Y/N')
     ready = input()
-    if ready == 'Y' or 'y':
+    if ready == 'y' or 'Y':
         print('Excellent!')
         for seconds in range(11):
             print('Opening link in ' + str(second) + ' seconds...')
@@ -17,8 +17,9 @@ while True:
             if second == 0:
                 # link is to YouTube "Never Gonna Give You Up" by Rick Astley
                 webbrowser.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ')
+                second = 10
                 break
-    elif ready == 'N' or 'n':
+    elif ready == 'n' or 'N':
         print('That was pretty sus')
         # link is to Among Us video of "Never Gonna Give You Up" by Rick Astley
         webbrowser.open('https://www.youtube.com/watch?v=WD16oVf5eGE')
