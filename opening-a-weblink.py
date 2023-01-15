@@ -25,3 +25,4 @@ while True:
         break
     else:
         print('Please enter a valid input')
+        continue
