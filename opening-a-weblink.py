@@ -1,5 +1,5 @@
 import time #using time to add a little flair
-import webbrowser
+import webbrowser #using webbrowser to open two different links to youtube
 print('This is a test to open a link in the default web browser.')
 second = 10
 while True:
