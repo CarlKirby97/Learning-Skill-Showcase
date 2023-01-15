@@ -13,6 +13,8 @@ else:
 if list1[0] == list2[0]:
 	print("values are equal")
 
+#the loop will first check if the list values are the same
+#if the values are not the same it will mofiddy the second value until they match
 while True:
 	if list1[3] != list3[3]:
 		modifier = True
@@ -21,7 +23,8 @@ while True:
 	if modifier == True:
 		list3[3] = 1 + list3[3]
 		print(list3)
-		time.sleep(0.25)
+		time.sleep(0.25) #holdover from debugging the loop
 	if modifier == False:
+		print("values are now equal")
 		break
 print("done")
